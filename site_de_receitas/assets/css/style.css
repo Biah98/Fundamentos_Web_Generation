@@ -39,6 +39,7 @@ body{
     background-size: cover;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 5px;
     background-color: rgba(134, 131, 150, 0.486);
     background-size: cover;
