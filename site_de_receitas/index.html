@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inicial-scalle=1.0">
-        <title>Receita Do Dia</title>
-    </head>
-    <body>
 
-        <div class="titulo">
-            <h1>Receita Do Dia</h1>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scalle=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Receita Do Dia</title>
+</head>
 
-        <nav>
-            <a href="index.html"><il>Home</il></a>
-            <a href="sobre.html"><il>Sobre nós</il></a>
-            <a href="contato.html"><il>Contatos</il></a>
-        </nav>
+<body class="bg">
 
-        <div class="">
+    <h1 class="titulo">Receita Do Dia</h1>
 
-            <h2>Bem-Vindos!</h2>
-
-        </div>
-        
-        
-        <div class="escolha">
-            <div class="pergunta">
-                <h2>Qual receita vai querer hoje?</h2>
-            </div>
-            <div class="selecao_usuario">
-                <a href="rsagada.html"><button>Salgado</button></a>
-                <button>Doce</button>
-            </div>
-        </div>
-    </body>
-    <footer>
-        <h3>
-            Rede Sociais:
-        </h3>
+    <nav class="menu">
         <ul>
-            <a href="https://www.instagram.com/biah_carv/"><li>Instagram</li></a>
-            <a href="https://github.com/Biah98"><li>GitHub</li></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contatos</il></a>
         </ul>
 
-    </footer>
+    </nav>
+
+    <div class="conteiner">
+        <div class="subtitulo">
+            <h2>Bem-Vindos!</h2>
+        </div>
+
+         <div class="pergunta">
+            <h2>Qual receita vai querer hoje?</h2>
+         </div>
+     </div>       
+     <div class="button">
+        <button class="bts" type="button" onclick="sreceitas.html" >
+            Salgado
+        </button>
+        <button class="btd" type="button" onclick="dreceitas.html" >Doce</button>
+    </div>
+
+    <hr>
+    <footer>
+        
+        <div class="redes_sociais">
+            <h3>Rede Sociais:</h3>
+                <a href="https://www.instagram.com">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo Instagram">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img class="tm-social" src="assets/img/logotipo-do-aplicativo-do-facebook.png" alt="Logo Facebook"> 
+                </a>
+                <a href="https://www.github.com"><img class="tm-social" src="assets/img/placa-do-github.png" alt="Logo GitHub">
+                </a>
+                <p class="center">Todos os direitos reservados para: Beatriz Carvalho&copy</p>
+        </div>
+     </footer>
+    </hr>
+</body>
+
 </html>

@@ -1,61 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Receita Do Dia</title>
 </head>
-<body>
-    
-    <div class="titulo">
-        <h1>Receita Do Dia</h1>
-    </div>
 
-    <nav>
-        <ol>
-            <a href="index.html"><il>Home</il></a>
-            <a href="sobre.html"><il>Sobre nós</il></a>
-            <a href="contato.html"><il>Contatos</il></a>
-        </ol>
+<body class="bg">
+
+    <h1 class="titulo">Receita Do Dia</h1>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contatos</il></a>
+        </ul>
+
     </nav>
 
-    <h2 class="titulo_contato">Entre em contato</h2>
+    
 
-    <div class="conteiner">
+    <div class="contato">
+        
+        <div class="entre_em_contato">
+            <h2>Entre em contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
 
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome">
+        </div>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email">
 
-            <label for="assunto">Assunto:</label>
-            <textarea  name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <div class="endereço">
+            <h2>Endereço:</h2>
+            <p>Avenida Paulista, 100</p>
+            <p>São Paulo - SP</p>
+        </div>
 
-            <button>Enviar</button>
-        </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9302512508!2d-46.64404400000001!3d-23.5709484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd92bce431%3A0xc37ded133806ef0b!2sAv.%20Paulista%2C%20100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1644513197846!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
     </div>
 
-    <div class="endereço">
-    <h2>Endereço:</h2>
-    <p>Avenida Paulista, 100</p>
-    <p>São Paulo - SP</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9302512508!2d-46.64404400000001!3d-23.5709484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd92bce431%3A0xc37ded133806ef0b!2sAv.%20Paulista%2C%20100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1644513197846!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-    </div>
+    <hr>
+    <footer>
+        
+        <div class="redes_sociais">
+            <h3>Rede Sociais:</h3>
+                <a href="https://www.instagram.com">
+                    <img class="tm-social" src="assets/img/instagram.png" alt="Logo Instagram">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img class="tm-social" src="assets/img/logotipo-do-aplicativo-do-facebook.png" alt="Logo Facebook"> 
+                </a>
+                <a href="https://www.github.com"><img class="tm-social" src="assets/img/placa-do-github.png" alt="Logo GitHub">
+                </a>
+                <p class="center">Todos os direitos reservados para: Beatriz Carvalho&copy</p>
+        </div>
+     </footer>
+    </hr>
 </body>
-<footer>
-    <h3>
-        Rede Sociais:
-    </h3>
-    <ul>
-        <a href="https://www.instagram.com/biah_carv/"><li>Instagram</li></a>
-        <a href="https://github.com/Biah98"><li>GitHub</li></a>
-    </ul>
-
-</footer>
 </html>

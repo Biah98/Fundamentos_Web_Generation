@@ -1,0 +1,184 @@
+/*Pg index.html*/
+
+body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg{
+    background-image: url("../img/img_fundo.jpg");
+    background-repeat: no-repeat;
+}
+
+.center{
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+    color: black;
+    /*text-align: center;*/
+    background-color: rgba(134, 131, 150, 0.486);
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    
+}
+
+.menu li{
+    display: flex;
+    flex-flow:  row wrap;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(134, 131, 150, 0.486);
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    color: gray;
+}
+
+.conteiner {
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner > div {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgba(134, 131, 150, 0.486);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.bts {
+    cursor: pointer;
+    background-color: #18364b;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.bts:hover {
+    background: #397ca8;
+    color: #ccc;
+}
+
+.btd {
+    background-color: #18364b;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+
+  
+}
+  
+.btd:hover {
+      background: #397ca8;
+      color: #ccc;
+}
+
+
+
+.redes_sociais{
+    
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+/*Pg sobre*/
+
+.sobre{
+    
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(134, 131, 150, 0.486);
+    
+    margin-bottom: 100px;
+}
+
+.sobre h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.sobre p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Pg contado*/
+
+.contato{
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.entre_em_contato{
+    margin: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(134, 131, 150, 0.486);
+    margin-bottom: 100px;
+}
+
+.endereço{
+    margin: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(134, 131, 150, 0.486);
+    margin-bottom: 100px;
+}
